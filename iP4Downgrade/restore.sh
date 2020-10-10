@@ -1,5 +1,6 @@
 #!/bin/bash -e
 chmod 777 tools/ipwndfu/ipwndfu
+chmod 777 ./tools/idevicerestore
 
 get_key() {
 	cat "$1" | grep -A1 "<key>$2</key>" | tail -1 | cut -d '>' -f 2 | cut -d '<' -f 1
