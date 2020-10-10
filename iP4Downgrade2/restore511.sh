@@ -1,5 +1,5 @@
 #!/bin/bash -e
-cd ~/Documents/Pluvia-1.5
+cd ~/Documents/CodeNameM8/iP4Downgrade2/
 chmod +x ./make_ipsw.sh
 chmod +x ./tools/xpwntool
 chmod +x ./tools/iBoot32Patcher/iBoot32Patcher
